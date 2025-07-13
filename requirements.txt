@@ -1,0 +1,11 @@
+# Core speech recognition dependencies
+SpeechRecognition==3.10.0
+
+# Audio input/output (required for microphone access)
+pyaudio==0.2.14
+
+# HTTP requests (used by SpeechRecognition for Google API)
+requests==2.31.0
+
+# Type hints support for older Python versions
+typing-extensions==4.8.0
